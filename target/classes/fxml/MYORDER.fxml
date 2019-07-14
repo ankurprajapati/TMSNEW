@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="813.0" prefWidth="1105.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controllers.MyorderController">
+  <children>
+    <SplitPane dividerPositions="0.499383477188656" focusTraversable="true" orientation="VERTICAL" prefHeight="813.0" prefWidth="825.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="280.0" AnchorPane.topAnchor="0.0">
+      <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+          <children>
+            <TitledPane animated="false" prefHeight="402.0" prefWidth="823.0" text="Flight Details" AnchorPane.bottomAnchor="-3.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="3.0">
+              <content>
+                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                    <TextArea fx:id="flightTextArea" focusTraversable="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="286.0" prefWidth="669.0" wrapText="true" AnchorPane.bottomAnchor="53.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="74.0" AnchorPane.topAnchor="31.0" />
+                  </children>
+                </AnchorPane>
+              </content>
+            </TitledPane>
+          </children>
+        </AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+          <children>
+            <TitledPane animated="false" prefHeight="403.0" prefWidth="823.0" text="Package Details" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.5" AnchorPane.rightAnchor="-0.5" AnchorPane.topAnchor="0.0">
+              <content>
+                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                    <TextArea prefHeight="286.0" prefWidth="669.0" wrapText="true" AnchorPane.bottomAnchor="51.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="74.0" AnchorPane.topAnchor="34.0" />
+                  </children>
+                </AnchorPane>
+              </content>
+            </TitledPane>
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+    <SplitPane dividerPositions="0.49815043156596794" focusTraversable="true" orientation="VERTICAL" prefHeight="813.0" prefWidth="280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+          <children>
+            <Button layoutX="48.0" layoutY="28.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="180.0" text="Print Invoice">
+              <font>
+                <Font size="18.0" />
+              </font>
+            </Button>
+            <TextArea fx:id="flightInvoiceTextArea" layoutX="39.0" layoutY="260.0" prefHeight="111.0" prefWidth="200.0" text="Total of Flight Invoice " wrapText="true" />
+          </children>
+        </AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+          <children>
+            <TextArea layoutX="39.0" layoutY="229.0" prefHeight="111.0" prefWidth="200.0" text="Total of Package Invoice &#10;" wrapText="true" />
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+  </children>
+</AnchorPane>

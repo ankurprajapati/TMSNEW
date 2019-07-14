@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="747.0" prefWidth="1020.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controllers.AboutusController">
+  <children>
+    <TextArea layoutX="145.0" layoutY="164.0" prefHeight="415.0" prefWidth="743.0" text="Here We are planning to Provide Information related to us. &#10;&#10;Using This page anyone can contact us." wrapText="true" />
+    <Label layoutX="473.0" layoutY="61.0" text="About Us">
+      <font>
+        <Font size="18.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="269.0" layoutY="311.0" text="Alex Christian" />
+    <Label font="$x1" layoutX="609.0" layoutY="311.0" text="Falak Pandya" />
+    <Label font="$x1" layoutX="269.0" layoutY="443.0" text="Gargi Patel" />
+    <Label font="$x1" layoutX="609.0" layoutY="438.0" text="Ankur Prajapati" />
+  </children>
+  <stylesheets>
+    <URL value="@aboutus.css" />
+  </stylesheets>
+</AnchorPane>
